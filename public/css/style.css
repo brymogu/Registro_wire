@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f8fa;
+}
+
+h2 {
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+}
+
+
+
+.landig .form-floating>.form-control-plaintext~label,
+.landig .form-floating>.form-control:focus~label,
+.landig .form-floating>.form-control:not(:placeholder-shown)~label,
+.landig .form-floating>.form-select~label {
+    transform: scale(.85) translateY(-1rem) translateX(0.15rem);
+    font-weight: 100;
+}
+
+.landig input:-webkit-autofill,
+.landig input:-webkit-autofill:hover,
+.landig input:-webkit-autofill:focus,
+.landig input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #01303c;
+}
+
+.landig .descripcion {
+    height: 100vh;
+    
+}
+
+@media (max-width: 576px) {
+    body {
+        overflow: unset;
+    }
+}
+
+.landig .formulario {
+    background-color: #01303c;
+    height: 100vh;
+}
+
+.landig .formulario input {
+    color: white;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-radius: 0;
+    border-color: white;
+    background-color: transparent;
+}
+
+.landig .formulario label {
+    color: white;
+    font-weight: 400;
+}
+
+.landig .formulario .tyc input {
+    border: 1px solid white;
+}
+
+.landig .formulario .tyc input:hover,
+.landig .formulario .tyc input:focus {
+    background-color: transparent;
+}
+
+.landig .formulario .tyc label {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.landig .formulario .tyc a:link,
+.landig .formulario .tyc a:visited {
+    color: #f6c015;
+}
+
+.landig .boton {
+    width: 100%;
+    border: unset;
+    background-color: #f6c015;
+    color: white;
+    border-radius: 30px;
+    height: 60px;
+    transition: all .2s ease-in-out;
+}
+
+.landig .boton:hover {
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
+    transform: scale(1.1);
+}
+
+.landig .swiper-wrapper {
+    height: 100vh;
+}
+
+.landig .swiper-slide a,
+.landig .swiper-slide a:link {
+    color: #01303c;
+    font-weight: 600;
+}
+
+.logo{
+    height: 40px;
+    
+}
+.contenido .card {
+    background-color: white;
+    border: unset;
+    border-radius: 3px;
+}
+
+.contenido .titulo {
+    color: #518697;
+}
+
+
+.custom_select:has(select:focus),
+.custom_input:has(input:focus) {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.custom_list,
+.custom_list:focus,
+.custom_input input,
+.custom_input input:focus {
+    color: #4e4e4e !important;
+    outline: 0 !important;
+    border-width: 0 0 1px !important;
+    border-radius: 0 !important;
+    border-color: #518697;
+    background-color: transparent !important;
+    --tw-ring-shadow: unset !important;
+    width: 100%;
+    height: 37px;
+}
+
+.custom_input label,
+.custom_select label {
+    margin-top: 0.25rem !important;
+    margin-left: 00.25rem !important;
+    font-size: .75em;
+    color: #939597;
+    font-weight: 400 !important;
+}
+
+.custom_input:has(.error),
+.custom_select:has(.error) {
+    border-radius: 5px;
+    background-color: #ffebee50;
+}
+
+.custom_select:has(.error) label,
+.custom_select:has(.error) p {
+    color: red;
+}
+
+.error {
+    border-color: red;
+}
+
+.contenido .formulario .form-control,
+.contenido .formulario .form-select {
+    color: #4e4e4e !important;
+    outline: 0 !important;
+    border-width: 0 0 1px !important;
+    border-radius: 0 !important;
+    border-color: #518697 !important;
+    background-color: transparent !important;
+}
+
+
+.contenido .formulario small {
+    color: #939597;
+    font-weight: 400 !important;
+}
+
+
+
+.contenido .formulario .form-check-input:checked {
+    background-color: #518697;
+    border-color: #518697;
+}
+
+
+.contenido .paso .activo {
+    border-radius: 3px;
+    background-color: #f6c21522;
+}
+
+.contenido .paso .activo i,
+.contenido .paso .activo small {
+    color: #01303c;
+}
+
+
+
+
+.form-floating:has(.error) .form-control,
+.select:has(.error) .form-select {
+    border-color: red;
+}
+
+.form-floating:has(.error) label {
+    color: red;
+}
+
+.contenido .paso i {
+    font-size: xx-large;
+    display: block;
+}
+
+.contenido .paso .mobil i {
+    text-align: center;
+    padding: 0.25rem 0 0.25rem 0;
+}
+
+@media screen and (max-width: 1382px) {
+    .contenido .paso small {
+        display: none;
+    }
+}
+
+
+.contenido .paso .separador {
+    border-left: 2px solid #939597;
+    height: 2vh;
+}
+
+.contenido .formulario .boton {
+    color: white;
+    width: 100%;
+    background-color: #518697;
+    padding: .5rem 0 .5rem 0;
+    border: unset;
+}
+
+.previews{
+    width:  100px !important;
+    height: 100px;
+    object-fit: cover;
+}
